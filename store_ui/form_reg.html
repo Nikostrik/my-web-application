@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1>Please sign Up and checking notification in 'console.log'</h1>
+      <div class="container">
+        <div class="user sighInBx">
+          <div class="formBx">
+            <form class="form2" action="" method="POST" autocomplete="off">
+              <h2>Create an account</h2>
+              <input type="text" name="sighName" placeholder="Username" />
+              <input type="text" placeholder="Email Address" />
+              <input
+                type="password"
+                name="sighPasword"
+                placeholder="Create Password"
+              />
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="sighRepeatPasword"
+              />
+              <input type="submit" value="Sigh Up" />
+              <!-- <p class="signup">
+                Already have an account?<a class="toggle" href="#">Sigh in.</a>
+              </p> -->
+            </form>
+          </div>
+          <div class="imgBx"><img src="img/pexels2.jpeg" /></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
